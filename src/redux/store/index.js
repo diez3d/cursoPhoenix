@@ -6,6 +6,7 @@ import rootSaga from '../sagas';
 
 const configureStore = () => {
 
+	console.log('PASO POR REDUX/STORE/INDEX');
 	const sagaMiddleware = createSagaMiddleware();
 	return {
 		...createStore(rootReducer, applyMiddleware(sagaMiddleware)),

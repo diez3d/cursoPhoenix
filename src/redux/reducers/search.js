@@ -5,7 +5,7 @@ import { SEARCH_MOVIE_START, SEARCH_MOVIE_ERROR,  SEARCH_MOVIE_COMPLETE} from ".
 const initialState = {};
 
 export default function(state = initialState, action ){
-    console.log('DESPUES DE LA FUNICON (REDUCERS/SEARCH)',initialState);
+    console.log('DESPUES DE LA FUNCION (REDUCERS/SEARCH)',initialState);
     console.log('ESTAS EN REDUCERS/SEARCH');
     switch (action.type) {
         

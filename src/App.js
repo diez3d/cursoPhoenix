@@ -11,7 +11,7 @@ const App = ({ store }) => (
 		<Router>
 			<div>
 				<Route exact path="/" component={Home} />
-        <Route path="/results" component={Results}/>
+        		<Route path="/results" component={Results}/>
 			</div>
 		</Router>
 	</Provider>

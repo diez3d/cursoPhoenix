@@ -3,7 +3,7 @@ import { SEARCH_MOVIE_START, SEARCH_MOVIE_ERROR, SEARCH_MOVIE_COMPLETE } from ".
 
 import { apiCall } from '../api'
 
-export function* searchMovie({payload}) {
+export function* searchMovie({ payload }) {
     console.log('ESTOY POR AQUI');
     try{
         console.log("Accion inicial llamada");
@@ -11,6 +11,7 @@ export function* searchMovie({payload}) {
         //yield put({ type: SEARCH_MOVIE_COMPLETE, results});
 
     }catch(error){
+        console.log("ERROR EN EL CATCH DE SAGAS/SEARCH");
        // yield put({ type: SEARCH_MOVIE_ERROR, error});
 
 

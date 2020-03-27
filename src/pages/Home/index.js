@@ -7,7 +7,7 @@ import styles from './style';
 
 
 export default ({ history }) =>{
-    console.log('history vale ---> ' , history);
+    //console.log('history vale ---> ' , history);
     const [searchText, setSearchText] = useState('');
     const classes = styles();
 
@@ -20,13 +20,13 @@ export default ({ history }) =>{
     const handleCleanTextClick = event=>{ // Borrar caja 
         setSearchText('');
     }
-    console.log(searchText);
+    //console.log(searchText);
     return(
         <Container className={classes.container}>
             <Card className={classes.cardContainer}>
                 <Grid container className={classes.titleGridContainer} >
                     <Grid>
-                        <Typography className={classes.title}>Bienvenido hola</Typography>
+                        <Typography className={classes.title}>Bienvenido</Typography>
                     </Grid>
                     <Grid>
                         <MovieIcon className={classes.movieIcon}></MovieIcon>
