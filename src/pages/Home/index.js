@@ -26,7 +26,7 @@ export default ({ history }) =>{
             <Card className={classes.cardContainer}>
                 <Grid container className={classes.titleGridContainer} >
                     <Grid>
-                        <Typography className={classes.title}>Bienvenido hoa</Typography>
+                        <Typography className={classes.title}>Bienvenido hola</Typography>
                     </Grid>
                     <Grid>
                         <MovieIcon className={classes.movieIcon}></MovieIcon>
